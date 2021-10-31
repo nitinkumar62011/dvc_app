@@ -1,0 +1,163 @@
+action: GLOB, msg: packaging
+cwd: C:\Users\nitin\anaconda3\Scripts\mlopsp\simple_app
+cmd: 'C:\Users\nitin\anaconda3\envs\wine\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing src.egg-info\PKG-INFO
+writing dependency_links to src.egg-info\dependency_links.txt
+writing top-level names to src.egg-info\top_level.txt
+reading manifest file 'src.egg-info\SOURCES.txt'
+writing manifest file 'src.egg-info\SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating src-0.0.1
+creating src-0.0.1\.dvc
+creating src-0.0.1\.dvc\plots
+creating src-0.0.1\Data_given
+creating src-0.0.1\UNKNOWN.egg-info
+creating src-0.0.1\data
+creating src-0.0.1\data\processed
+creating src-0.0.1\data\raw
+creating src-0.0.1\notebooks
+creating src-0.0.1\notebooks\.ipynb_checkpoints
+creating src-0.0.1\report
+creating src-0.0.1\saved_models
+creating src-0.0.1\src
+creating src-0.0.1\src.egg-info
+creating src-0.0.1\src\__pycache__
+creating src-0.0.1\tests
+creating src-0.0.1\tests\__pycache__
+copying files to src-0.0.1...
+copying .dvcignore -> src-0.0.1
+copying .gitignore -> src-0.0.1
+copying README.md -> src-0.0.1
+copying __init__.py -> src-0.0.1
+copying dvc.lock -> src-0.0.1
+copying dvc.yaml -> src-0.0.1
+copying params.yaml -> src-0.0.1
+copying pyproject.toml -> src-0.0.1
+copying requirements.txt -> src-0.0.1
+copying setup.py -> src-0.0.1
+copying template.py -> src-0.0.1
+copying tox.ini -> src-0.0.1
+copying .dvc\.gitignore -> src-0.0.1\.dvc
+copying .dvc\config -> src-0.0.1\.dvc
+copying .dvc\plots\confusion.json -> src-0.0.1\.dvc\plots
+copying .dvc\plots\confusion_normalized.json -> src-0.0.1\.dvc\plots
+copying .dvc\plots\linear.json -> src-0.0.1\.dvc\plots
+copying .dvc\plots\scatter.json -> src-0.0.1\.dvc\plots
+copying .dvc\plots\simple.json -> src-0.0.1\.dvc\plots
+copying .dvc\plots\smooth.json -> src-0.0.1\.dvc\plots
+copying Data_given\.gitignore -> src-0.0.1\Data_given
+copying Data_given\winequality.csv.dvc -> src-0.0.1\Data_given
+copying UNKNOWN.egg-info\PKG-INFO -> src-0.0.1\UNKNOWN.egg-info
+copying UNKNOWN.egg-info\SOURCES.txt -> src-0.0.1\UNKNOWN.egg-info
+copying UNKNOWN.egg-info\dependency_links.txt -> src-0.0.1\UNKNOWN.egg-info
+copying UNKNOWN.egg-info\top_level.txt -> src-0.0.1\UNKNOWN.egg-info
+copying data\processed\.gitignore -> src-0.0.1\data\processed
+copying data\processed\.gitkeep -> src-0.0.1\data\processed
+copying data\raw\.gitignore -> src-0.0.1\data\raw
+copying data\raw\.gitkeep -> src-0.0.1\data\raw
+copying notebooks\.gitkeep -> src-0.0.1\notebooks
+copying notebooks\Untitled.ipynb -> src-0.0.1\notebooks
+copying notebooks\scema -> src-0.0.1\notebooks
+copying notebooks\.ipynb_checkpoints\Untitled-checkpoint.ipynb -> src-0.0.1\notebooks\.ipynb_checkpoints
+copying report\params.json -> src-0.0.1\report
+copying report\scores.json -> src-0.0.1\report
+copying saved_models\.gitignore -> src-0.0.1\saved_models
+copying saved_models\.gitkeep -> src-0.0.1\saved_models
+copying src\.gitkeep -> src-0.0.1\src
+copying src\__init__.py -> src-0.0.1\src
+copying src\get_data.py -> src-0.0.1\src
+copying src\load_data.py -> src-0.0.1\src
+copying src\split_data.py -> src-0.0.1\src
+copying src\train_and_evaluate.py -> src-0.0.1\src
+copying src.egg-info\PKG-INFO -> src-0.0.1\src.egg-info
+copying src.egg-info\SOURCES.txt -> src-0.0.1\src.egg-info
+copying src.egg-info\dependency_links.txt -> src-0.0.1\src.egg-info
+copying src.egg-info\top_level.txt -> src-0.0.1\src.egg-info
+copying src\__pycache__\__init__.cpython-37.pyc -> src-0.0.1\src\__pycache__
+copying src\__pycache__\get_data.cpython-37.pyc -> src-0.0.1\src\__pycache__
+copying tests\conftest.py -> src-0.0.1\tests
+copying tests\test_config.py -> src-0.0.1\tests
+copying tests\__pycache__\conftest.cpython-37-pytest-6.2.5.pyc -> src-0.0.1\tests\__pycache__
+copying tests\__pycache__\test_config.cpython-37-pytest-6.2.5.pyc -> src-0.0.1\tests\__pycache__
+Writing src-0.0.1\setup.cfg
+creating '.tox\dist\src-0.0.1.zip' and adding 'src-0.0.1' to it
+adding 'src-0.0.1'
+adding 'src-0.0.1\.dvc'
+adding 'src-0.0.1\data'
+adding 'src-0.0.1\Data_given'
+adding 'src-0.0.1\notebooks'
+adding 'src-0.0.1\report'
+adding 'src-0.0.1\saved_models'
+adding 'src-0.0.1\src'
+adding 'src-0.0.1\src.egg-info'
+adding 'src-0.0.1\tests'
+adding 'src-0.0.1\UNKNOWN.egg-info'
+adding 'src-0.0.1\.dvcignore'
+adding 'src-0.0.1\.gitignore'
+adding 'src-0.0.1\dvc.lock'
+adding 'src-0.0.1\dvc.yaml'
+adding 'src-0.0.1\params.yaml'
+adding 'src-0.0.1\PKG-INFO'
+adding 'src-0.0.1\pyproject.toml'
+adding 'src-0.0.1\README.md'
+adding 'src-0.0.1\requirements.txt'
+adding 'src-0.0.1\setup.cfg'
+adding 'src-0.0.1\setup.py'
+adding 'src-0.0.1\template.py'
+adding 'src-0.0.1\tox.ini'
+adding 'src-0.0.1\__init__.py'
+adding 'src-0.0.1\.dvc\plots'
+adding 'src-0.0.1\.dvc\.gitignore'
+adding 'src-0.0.1\.dvc\config'
+adding 'src-0.0.1\.dvc\plots\confusion.json'
+adding 'src-0.0.1\.dvc\plots\confusion_normalized.json'
+adding 'src-0.0.1\.dvc\plots\linear.json'
+adding 'src-0.0.1\.dvc\plots\scatter.json'
+adding 'src-0.0.1\.dvc\plots\simple.json'
+adding 'src-0.0.1\.dvc\plots\smooth.json'
+adding 'src-0.0.1\data\processed'
+adding 'src-0.0.1\data\raw'
+adding 'src-0.0.1\data\processed\.gitignore'
+adding 'src-0.0.1\data\processed\.gitkeep'
+adding 'src-0.0.1\data\raw\.gitignore'
+adding 'src-0.0.1\data\raw\.gitkeep'
+adding 'src-0.0.1\Data_given\.gitignore'
+adding 'src-0.0.1\Data_given\winequality.csv.dvc'
+adding 'src-0.0.1\notebooks\.ipynb_checkpoints'
+adding 'src-0.0.1\notebooks\.gitkeep'
+adding 'src-0.0.1\notebooks\scema'
+adding 'src-0.0.1\notebooks\Untitled.ipynb'
+adding 'src-0.0.1\notebooks\.ipynb_checkpoints\Untitled-checkpoint.ipynb'
+adding 'src-0.0.1\report\params.json'
+adding 'src-0.0.1\report\scores.json'
+adding 'src-0.0.1\saved_models\.gitignore'
+adding 'src-0.0.1\saved_models\.gitkeep'
+adding 'src-0.0.1\src\__pycache__'
+adding 'src-0.0.1\src\.gitkeep'
+adding 'src-0.0.1\src\get_data.py'
+adding 'src-0.0.1\src\load_data.py'
+adding 'src-0.0.1\src\split_data.py'
+adding 'src-0.0.1\src\train_and_evaluate.py'
+adding 'src-0.0.1\src\__init__.py'
+adding 'src-0.0.1\src\__pycache__\get_data.cpython-37.pyc'
+adding 'src-0.0.1\src\__pycache__\__init__.cpython-37.pyc'
+adding 'src-0.0.1\src.egg-info\dependency_links.txt'
+adding 'src-0.0.1\src.egg-info\PKG-INFO'
+adding 'src-0.0.1\src.egg-info\SOURCES.txt'
+adding 'src-0.0.1\src.egg-info\top_level.txt'
+adding 'src-0.0.1\tests\__pycache__'
+adding 'src-0.0.1\tests\conftest.py'
+adding 'src-0.0.1\tests\test_config.py'
+adding 'src-0.0.1\tests\__pycache__\conftest.cpython-37-pytest-6.2.5.pyc'
+adding 'src-0.0.1\tests\__pycache__\test_config.cpython-37-pytest-6.2.5.pyc'
+adding 'src-0.0.1\UNKNOWN.egg-info\dependency_links.txt'
+adding 'src-0.0.1\UNKNOWN.egg-info\PKG-INFO'
+adding 'src-0.0.1\UNKNOWN.egg-info\SOURCES.txt'
+adding 'src-0.0.1\UNKNOWN.egg-info\top_level.txt'
+removing 'src-0.0.1' (and everything under it)

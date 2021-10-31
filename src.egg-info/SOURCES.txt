@@ -1,5 +1,6 @@
 .dvcignore
 .gitignore
+README.md
 __init__.py
 dvc.lock
 dvc.yaml
@@ -19,11 +20,18 @@ tox.ini
 .dvc/plots/smooth.json
 Data_given/.gitignore
 Data_given/winequality.csv.dvc
+UNKNOWN.egg-info/PKG-INFO
+UNKNOWN.egg-info/SOURCES.txt
+UNKNOWN.egg-info/dependency_links.txt
+UNKNOWN.egg-info/top_level.txt
 data/processed/.gitignore
 data/processed/.gitkeep
 data/raw/.gitignore
 data/raw/.gitkeep
 notebooks/.gitkeep
+notebooks/Untitled.ipynb
+notebooks/scema
+notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb
 report/params.json
 report/scores.json
 saved_models/.gitignore
@@ -38,6 +46,9 @@ src.egg-info/PKG-INFO
 src.egg-info/SOURCES.txt
 src.egg-info/dependency_links.txt
 src.egg-info/top_level.txt
+src/__pycache__/__init__.cpython-37.pyc
 src/__pycache__/get_data.cpython-37.pyc
 tests/conftest.py
 tests/test_config.py
+tests/__pycache__/conftest.cpython-37-pytest-6.2.5.pyc
+tests/__pycache__/test_config.cpython-37-pytest-6.2.5.pyc
